@@ -198,7 +198,7 @@
       var html = '';
       posts.forEach(function(post) {
         html += '<div class="media">';
-        html += '<a class="search-title" href="' + post.path + '">';
+        html += '<a class="search-title" href="' + post.permalink + '">';
         html += '<i class="fa fa-quote-left"></i>';
         html += '<span id="search-post-title">' + post.title + '</span>';
         html += '</a>';
